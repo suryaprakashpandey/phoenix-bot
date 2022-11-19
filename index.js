@@ -12,8 +12,7 @@ const client = new Client({
 const channelArray = [
     '1043198232479662090',
     '1043198264817762506',
-    '1043229501695467650',
-    '886161997983531018'];
+    '1043229501695467650'];
 
 client.on('messageCreate', message => {
     if (message.channel.id == '976092971504140371') {
